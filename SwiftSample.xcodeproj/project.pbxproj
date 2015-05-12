@@ -13,6 +13,7 @@
 		E67F88041AC5B74B00BE779E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E67F88021AC5B74B00BE779E /* LaunchScreen.xib */; };
 		E67F88101AC5B74B00BE779E /* SwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67F880F1AC5B74B00BE779E /* SwiftSampleTests.swift */; };
 		E6B4202A1AFE64F600195EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B420291AFE64F600195EF6 /* ViewController.swift */; };
+		E6B4202C1B02C28C00195EF6 /* trumpet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6B4202B1B02C28C00195EF6 /* trumpet.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E67F880E1AC5B74B00BE779E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E67F880F1AC5B74B00BE779E /* SwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSampleTests.swift; sourceTree = "<group>"; };
 		E6B420291AFE64F600195EF6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6B4202B1B02C28C00195EF6 /* trumpet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trumpet.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				E67F87FD1AC5B74B00BE779E /* Main.storyboard */,
 				E67F88001AC5B74B00BE779E /* Images.xcassets */,
 				E67F88021AC5B74B00BE779E /* LaunchScreen.xib */,
+				E6B4202B1B02C28C00195EF6 /* trumpet.mp3 */,
 				E67F87F71AC5B74B00BE779E /* Supporting Files */,
 				E6B420291AFE64F600195EF6 /* ViewController.swift */,
 			);
@@ -194,6 +197,7 @@
 			files = (
 				E67F87FF1AC5B74B00BE779E /* Main.storyboard in Resources */,
 				E67F88041AC5B74B00BE779E /* LaunchScreen.xib in Resources */,
+				E6B4202C1B02C28C00195EF6 /* trumpet.mp3 in Resources */,
 				E67F88011AC5B74B00BE779E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
