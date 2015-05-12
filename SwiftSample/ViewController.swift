@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
   
+  let player = AVPlayer(URL: NSBundle.mainBundle().URLForResource("trumpet", withExtension: "mp3"))
+
   override func viewDidLoad() {
     super.viewDidLoad()
   }
@@ -19,5 +22,6 @@ class ViewController: UIViewController {
   }
   
   @IBAction func honk(sender: AnyObject) {
+    player.play()
   }
 }
