@@ -18,4 +18,6 @@ class ViewController: UIViewController {
     super.didReceiveMemoryWarning()
   }
   
+  @IBAction func honk(sender: AnyObject) {
+  }
 }
