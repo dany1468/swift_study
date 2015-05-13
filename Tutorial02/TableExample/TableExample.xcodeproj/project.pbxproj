@@ -12,6 +12,7 @@
 		E6B420431B040DDC00195EF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B420421B040DDC00195EF6 /* Images.xcassets */; };
 		E6B420461B040DDC00195EF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6B420441B040DDC00195EF6 /* LaunchScreen.xib */; };
 		E6B420521B040DDC00195EF6 /* TableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B420511B040DDC00195EF6 /* TableExampleTests.swift */; };
+		E6B4205C1B04168400195EF6 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4205B1B04168400195EF6 /* DataTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		E6B4204B1B040DDC00195EF6 /* TableExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B420501B040DDC00195EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B420511B040DDC00195EF6 /* TableExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExampleTests.swift; sourceTree = "<group>"; };
+		E6B4205B1B04168400195EF6 /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E6B420421B040DDC00195EF6 /* Images.xcassets */,
 				E6B420441B040DDC00195EF6 /* LaunchScreen.xib */,
 				E6B420391B040DDC00195EF6 /* Supporting Files */,
+				E6B4205B1B04168400195EF6 /* DataTableViewController.swift */,
 			);
 			path = TableExample;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B4203C1B040DDC00195EF6 /* AppDelegate.swift in Sources */,
+				E6B4205C1B04168400195EF6 /* DataTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
