@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="1112" y="411"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Data Table View Controller-->
         <scene sceneID="oAc-CQ-HjF">
             <objects>
-                <tableViewController id="Fze-BR-ZY1" sceneMemberID="viewController">
+                <tableViewController id="Fze-BR-ZY1" customClass="DataTableViewController" customModule="TableExample" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hyf-Io-ta8">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
