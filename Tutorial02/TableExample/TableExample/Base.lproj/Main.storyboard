@@ -28,6 +28,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Fze-BR-ZY1" kind="show" id="btI-96-WEG"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="yRF-bh-38U" style="IBUITableViewCellStyleDefault" id="qyP-Wf-Iku">
                                         <autoresizingMask key="autoresizingMask"/>
