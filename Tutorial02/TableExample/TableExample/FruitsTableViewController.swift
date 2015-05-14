@@ -15,7 +15,7 @@ class FruitsTableViewController: UITableViewController {
       self.navigationItem.rightBarButtonItem = self.editButtonItem()
       // self.tableView.editing = true
     }
-  
+
     override func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
       return .None
     }
@@ -42,6 +42,19 @@ class FruitsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("FruitCell", forIndexPath: indexPath) as! UITableViewCell
         cell.textLabel?.text = data[indexPath.row]
         return cell
+    }
+
+    override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
+      let movedObject = self.data[sourceIndexPath.row]
+      data.removeAtIndex(sourceIndexPath.row)
+      data.insert(movedObject, atIndex: destinationIndexPath.row)
+      NSLog("%@", "\(sourceIndexPath.row) => \(destinationIndexPath.row) \(data)")
+      // To check for correctness enable: self.tableView.reloadData()
+    }
+
+    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+      let rowData = data[indexPath.row]
+      return rowData.hasPrefix("A")
     }
 
     /*
