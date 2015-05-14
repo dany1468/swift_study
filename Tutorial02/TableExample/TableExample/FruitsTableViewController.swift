@@ -15,6 +15,14 @@ class FruitsTableViewController: UITableViewController {
       self.navigationItem.rightBarButtonItem = self.editButtonItem()
       // self.tableView.editing = true
     }
+  
+    override func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
+      return .None
+    }
+
+    override func tableView(tableView: UITableView, shouldIndentWhileEditingRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+      return false
+    }
 
     var data = ["Apple", "Apricot", "Banana", "Blueberry", "Cantaloupe", "Cherry",
         "Clementine", "Coconut", "Cranberry", "Fig", "Grape", "Grapefruit",
